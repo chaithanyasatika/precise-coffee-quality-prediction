@@ -1,0 +1,113 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/image6.avif');
+    background-size: contain;
+}
+#lg{
+    width: 100%;
+    height:auto;
+    margin: 0;
+    padding-bottom: 10px;
+}
+@media only screen and (min-width:0) and (max-width:768px) {
+    #lg{
+        height: auto;
+    }
+}
+#heads{
+    display: flex;
+}
+#name{
+    font-size: 50px;
+    margin: 0 12%;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 17, 20);
+}
+#home{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(1, 8, 1);
+     margin: 30px 45%;
+}
+#head{
+    font-size: 30px;
+    text-align: center;
+    margin-left:12%;
+    padding: 15px;
+    color: rgb(20, 20, 18);
+}
+#p{
+    text-emphasis-color: rgb(247, 245, 245);
+}
+#boxform{
+    width: 80%;
+    height:auto;
+    border:1px solid rgba(25, 24, 24, 0.925);
+    border-radius: 20px;
+    margin-left: 12%;
+    padding-bottom: 10px;
+
+}
+#fd{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #0f0202;
+}
+#form label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    color: rgba(3, 27, 2, 0.968);
+}
+#form input[type=number]{
+    margin: 10px;
+    width: 200px;
+    height: 25px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: #cecece;
+}
+#form {
+    text-align: center;
+  }
+#form input[type=number]#aroma,
+#form input[type=number]#flavour{
+    margin: 10px 36px;
+}
+#form input[type=number]#aftertaste,
+#form input[type=number]#acidity{
+    margin: 10px 36px;
+}
+#form input[type=number]#body,
+#form input[type=number]#balance{
+    margin: 10px 40px;
+}
+#form input[type=number]#uniformity{
+    margin:  10px 40px;
+}
+#form input[type=number]#quakers{
+    margin: 10px 40px;
+}
+#form input[type=number]#color_encoded{
+    margin:  10px 30px;
+}
+#predbut {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(10, 234, 73);
+    background-color: rgb(10, 234, 73);
+    color: #fff; /* make the text inside the button white */
+    display: block; /* make the button a block element */
+    margin: 0 auto; /* center the button horizontally */
+  }
+#predbut:hover {
+    background-color: rgb(10, 234, 73);
+  }
+

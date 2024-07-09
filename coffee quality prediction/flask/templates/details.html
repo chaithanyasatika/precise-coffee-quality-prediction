@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coffee Quality Prediction</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='assets/css/details.css')}}">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div id="lg">
+            <div id="heads">
+            <header id="name">Coffee Quality</header>
+            <a href="/" id="home" target="_blank">Home</a>
+            </div>
+           <header id="head">Discover the Coffee Quality Prediction Form</header>
+                <div id="boxform"> 
+                    <form method="POST" action="/submit" id="form">
+                        <p id="fd">Please fill the details to predict the Coffee quality</p>
+                      <label for="aroma">Aroma:</label>
+                      <input type="number" id="aroma" name="Aroma" placeholder="Enter Value between 0-100" step="0.01" required>
+                       <br>
+                      <label for="flavor">Flavor:</label>
+                      <input type="number" id="flavor" name="Flavor" placeholder="Enter Value between 0-100" step="0.01" required>
+                       <br>
+                       <label for="aftertaste">Aftertaste:</label>
+                       <input type="number" id="aftertaste" name="Aftertaste" placeholder="Enter Value between 0-100" step="0.01" required>
+                        <br>
+                      <label for="acidity">Acidity:</label>
+                      <input type="number" id="acidity" name="Acidity" placeholder="Enter Value between 0-100" step="0.01" required>
+                      <br>
+                      <label for="body">Body:</label>
+                      <input type="number" id="body" name="Body" placeholder="Enter Value between 0-100" step="0.01" required>
+                      <br>
+                      <label for="balance">Balance:</label>
+                      <input type="number" id="balance" name="Balance" placeholder="Enter Value between 0-100" step="0.01" required>
+                      <br>
+                      <label for="uniformity">Uniformity:</label>
+                      <input type="number" id="uniformity" name="Uniformity" placeholder="Enter Value between 0-100" step="0.01" required>
+                      <br>
+                      <label for="quakers">Quakers:</label>
+                      <input type="number" id="quakers" name="Quakers" placeholder="Enter Value between 0-100" step="0.01" required>
+                      <br>
+                      <label for="color_encoded">Color_Encoded:</label>
+                      <input type="number" id="color_encoded" name="Color_Encoded" placeholder="Enter value between 0-100" step="0.01" required>
+                      <br>
+                      <button type="submit" id="predbut">Submit</button>
+                    </form>
+                    
+                </div>
+        </div>   
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cofee Quality Prediction Output</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='assets/css/result.css')}}">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div id="lig">
+            <header id="name">coffee quality</header>
+            <a href="/" id="home" target="_blank">Home</a>
+            <h1 id="output">"Hence,based on calculation, the predicted coffee quality is: "
+  {{ predict }}</h1>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/image6.avif'); /* replace with your background image */
+    background-size: contain;
+    background-position: center;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+    color: #0e0303; /* text color */
+    font-size: large;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* text shadow */
+}
+#lg{
+    width: 100%;
+    height:auto;
+    margin: 0;
+    padding-bottom: 30px;
+}
+@media only screen and (min-width:0) and (max-width:768px) {
+    #lg{
+        height: auto;
+    }
+}
+#heads{
+    display: flex;
+}
+#home {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(1, 8, 1);
+    float: left; /* add this line */
+    margin: 20px 70%; /* adjust the margin to your liking */
+}
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+#heading{
+    text-align:center;
+}
+
+li:before {
+    content: "\2022";
+    margin-right: 10px;
+    color: #0a0909; /* bullet color */
+}
